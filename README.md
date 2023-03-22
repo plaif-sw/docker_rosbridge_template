@@ -4,7 +4,7 @@ ROSBridge 및 X-Window(GUI) 연결을 자동으로 세팅하기  위한 Dockerfi
 
 ## Getting Started
 
-`Dockerfile`을 이용한 빌드, `docker-compose.yml` 을 이용한 container 실행을 다룸
+`Dockerfile`을 이용한 도커 이미지 빌드, `docker-compose.yml` 을 이용한 도커 컨테이너 실행을 다룸
 
 ### 사전필수사항
 
@@ -18,7 +18,7 @@ ROSBridge 및 X-Window(GUI) 연결을 자동으로 세팅하기  위한 Dockerfi
 
 docker 안의 GUI Application을 띄우기 위해서는 X Windows를 연결해주어야함
 
-* TODO: Windows
+* Windows: WSL2 setup시 별다른 설정 필요 없음
 * [OS X](https://github.com/youngmin-gwon/what-i-studied/blob/main/ros/setup-for-mac.md)
 * TODO: Linux
 
