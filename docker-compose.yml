@@ -1,0 +1,6 @@
+version: '3'
+services:
+  ros:
+    image: ros-ws:dev
+    environment:
+      - DISPLAY=${DOCKER_DISPLAY}
