@@ -20,7 +20,7 @@ docker 안의 GUI Application을 띄우기 위해서는 X Windows를 연결해�
 
 * Windows: WSL2 setup시 별다른 설정 필요 없음
 * [OS X](https://github.com/youngmin-gwon/what-i-studied/blob/main/ros/setup-for-mac.md)
-* TODO: Linux
+* TODO: Linux Setup 정리
 
 다음 사항을 `~/.bashrc` 혹은 `~/.zshrc`에 설정
 ```bash
