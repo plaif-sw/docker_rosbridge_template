@@ -24,7 +24,7 @@ docker 안의 GUI Application을 띄우기 위해서는 X Windows를 연결해�
 
 다음 사항을 `~/.bashrc` 혹은 `~/.zshrc`에 설정
 ```bash
-export DOCKER_DISPLAY=$(ifconfig en0 | grep inet\ | awk '{ print $2 }' | awk '{ print $1 ":0" }')
+export DOCKER_DISPLAY=$(ifconfig en0 | grep inet\ | awk '{ print $2 ":0" }')
 
 ```
 
